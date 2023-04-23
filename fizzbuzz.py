@@ -1,6 +1,7 @@
 ## fizz = mulitple of 3
 ## buzz = mulitple of 5
 ## fizzbuzz = both
+
 TURN = 1
 while TURN <= 100:
     PRINTER = 0
