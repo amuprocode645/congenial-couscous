@@ -1,20 +1,19 @@
-# fizz = mulitple of 3
-# buzz = mulitple of 5
-# fizzbuzz = both
-turn = 1
-
-while turn <= 100:
-    printer = 0
-    if (turn/3).is_integer():
-        printer = 1
-        if (turn/5).is_integer():
-            printer = 0
+## fizz = mulitple of 3
+## buzz = mulitple of 5
+## fizzbuzz = both
+TURN = 1
+while TURN <= 100:
+    PRINTER = 0
+    if (TURN/3).is_integer():
+        PRINTER = 1
+        if (TURN/5).is_integer():
+            PRINTER = 0
             print("FizzBuzz")
-        if printer == 1:
+        if PRINTER == 1:
             print("Fizz")
     else:
-        if (turn/5).is_integer():
+        if (TURN/5).is_integer():
             print("Buzz")
         else:
-            print(turn)
-    turn = turn+1
+            print(TURN)
+    TURN = TURN+1
